@@ -12,8 +12,8 @@ const ServiceContent = () => {
   return (
     <section className="container-custom flex flex-col items-center justify-center pb-[12vw]">
       <div>
-        <img data-aos="fade-down" src="/service-content/service-heading.png" alt="" className="h-[3vw] w-[31vw]" />
-        <img data-aos="fade-up" src="/service-content/service-desc.png" alt="" className="ml-[3.5vw] h-[4vw] w-[25vw]" />
+        <img data-aos="fade-right" src="/service-content/service-heading.png" alt="" className="h-[3vw] w-[31vw]" />
+        <img data-aos="fade-left" src="/service-content/service-desc.png" alt="" className="ml-[3.5vw] h-[4vw] w-[25vw]" />
       </div>
 
       <section className="flex items-center gap-[5vw]">
@@ -32,24 +32,21 @@ const ServiceContent = () => {
           />
         </div>
 
-        <div className="relative">
-          <img data-aos="zoom-in-down" src="/service-content/main-img.png" alt="" className="h-[21vw] w-[40vw] max-xl:w-[33vw]" />
+        <div data-aos="zoom-out" className="relative">
+          <img src="/service-content/main-img.png" alt="" className="h-[21vw] w-[40vw] max-xl:w-[33vw]" />
           <img
-            data-aos="fade-down"
             data-aos-easing="linear"
             src="/service-content/leaf1.png"
             alt=""
             className="absolute top-[-3vw] right-[12vw] h-[5vw] w-[7vw]"
           />
           <img
-            data-aos="fade-down"
             data-aos-easing="linear"
             src="/service-content/leaf2.png"
             alt=""
             className="absolute top-[-2vw] right-[8vw] h-[6vw] w-[7vw]"
           />
           <img
-            data-aos="fade-down"
             data-aos-easing="linear"
             src="/service-content/leaf3.png"
             alt=""
