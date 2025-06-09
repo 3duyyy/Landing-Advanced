@@ -1,0 +1,32 @@
+@import 'tailwindcss';
+
+@font-face {
+  font-family: 'Exo';
+  src: url('/fonts/Exo-Regular.ttf') format('truetype');
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('/fonts/Exo-Bold.ttf') format('truetype');
+  font-weight: bold;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('/fonts/Exo-Medium.ttf') format('truetype');
+  font-weight: 600;
+}
+
+@font-face {
+  font-family: 'Exo';
+  src: url('/fonts/Exo-Light.ttf') format('truetype');
+  font-weight: 300;
+}
+
+body {
+  font-family: 'Exo';
+}
+
+.container-custom {
+  @apply mx-auto px-[10vw];
+}
