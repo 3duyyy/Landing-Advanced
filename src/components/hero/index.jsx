@@ -26,7 +26,7 @@ const Hero = () => {
   }, [controls, isTreeView])
 
   return (
-    <section className="relative h-screen max-xl:h-[80vw]">
+    <section className="relative h-screen max-xl:h-[80vw] max-md:h-[60vw]">
       <div className="relative z-10 h-full">
         <img src="/hero/hero-bg.png" alt="" className="absolute top-0 left-0 z-0 h-full w-full object-cover" />
 

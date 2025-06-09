@@ -55,7 +55,7 @@ const ProductFeatured = () => {
                 <Dot className="h-[2vw] w-[2vw]" /> <span data-aos="fade-left">Hồng trà</span>
               </p>
             </div>
-            <div className="relative z-10 mt-[2vw] flex gap-[2vw]">
+            <div className="relative mt-[2vw] flex gap-[2vw]">
               <Button
                 animation={'zoom-out-up'}
                 content={'Thêm vào giỏ'}
