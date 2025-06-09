@@ -12,7 +12,7 @@ const ProductFeatured = () => {
 
   return (
     <section className="relative overflow-hidden pb-[12vw] pl-[8vw] max-xl:pb-[15vw]">
-      <div className="absolute right-0 bottom-[-2vw] w-[100vw]">
+      <div className="absolute right-0 bottom-[-2vw] w-full">
         <img src="/featured/featured-bottom.png" alt="" className="w-full object-cover" />
       </div>
       <div className="absolute bottom-[7.5vw] left-[8vw]">

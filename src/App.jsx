@@ -6,7 +6,7 @@ import Signup from './components/signup'
 
 function App() {
   return (
-    <div>
+    <div className="h-full w-full">
       <Hero />
       <Service />
       <Product />
